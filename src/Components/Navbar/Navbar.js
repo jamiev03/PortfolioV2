@@ -4,6 +4,7 @@ import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <Nav>
