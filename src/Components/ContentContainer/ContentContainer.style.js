@@ -116,6 +116,6 @@ export const GridItemHoverButtons = styled.div`
     text-decoration: none;
     padding: .5rem 1rem;
     background-color: var(--red);
-    border-radius: 20px;
+    border-radius: 10px;
   }
 `;

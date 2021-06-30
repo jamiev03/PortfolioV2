@@ -10,10 +10,10 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactHeader = styled.div`
-  width: 800px;
+  width: 450px;
   position: relative;
   padding-bottom: 55px;
-  padding-right: 4rem;
+  padding-right: 2rem;
 
   @media (max-width: 768px) {
     width: 360px;
@@ -51,7 +51,7 @@ export const ContactButton = styled.button`
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
   margin: 12px 0 0 0;
   transition: all 0.2s ease-out;

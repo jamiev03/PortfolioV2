@@ -41,7 +41,7 @@ background-color: var(--red);
 color: var(--white);
 font-size: 16px;
 font-weight: 500;
-border-radius: 30px;
+border-radius: 10px;
 border: none;
 margin: 0 36px 36px 36px;
 transition: all 0.2s ease-out;
