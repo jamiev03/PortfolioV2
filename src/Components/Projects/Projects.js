@@ -10,7 +10,7 @@ import {
 import cryptoAppImg from "../../assets/cryptoAppImg.png";
 import tapgoImg from "../../assets/tapgoImg.png";
 import platforma from "../../assets/platforma.png";
-import phoneUI from '../../assets/phoneUI.png';
+import laos from '../../assets/laosAwaits.png';
 import nailsImg from '../../assets/nailsImg.png';
 import portfolioImg from '../../assets/portfolioImg.png'
 
@@ -67,7 +67,7 @@ const Projects = () => {
             </a>
           </GridItem>
         </ContentGrid>
-        <ProjectSubheader topPad='top'>Graphic Design and UI/UX</ProjectSubheader>
+        <ProjectSubheader topPad='top'>Graphic and Web Design</ProjectSubheader>
         <ContentGrid>
           <GridItem>
             <GridItemOverlay>
@@ -75,7 +75,6 @@ const Projects = () => {
                 <h3>Nail Art Brand Design</h3>
                 <p>A design template for nail art platform.</p>
                 <GridItemHoverButtons>
-                  <a href="#">Code</a>
                   <a href="#">Demo</a>
                 </GridItemHoverButtons>
               </GridItemHover>
@@ -87,16 +86,15 @@ const Projects = () => {
           <GridItem>
             <GridItemOverlay>
               <GridItemHover>
-                <h3>Phone Settings UI</h3>
-                <p>Settings menu design</p>
+                <h3>Laos Awaits</h3>
+                <p>Travel site</p>
                 <GridItemHoverButtons>
-                  <a href="https://github.com/jamiev03/DailyUI--7" rel="noreferrer" target='_blank'>Code</a>
-                  <a href="https://jamiev03.github.io/DailyUI--7/" rel="noreferrer" target='_blank'>Demo</a>
+                  <a href="https://laosawaits.com/" rel="noreferrer" target='_blank'>Demo</a>
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
             <a href="#">
-            <img src={phoneUI} alt="phone ui" />
+            <img src={laos} alt="website front page" />
             </a>
           </GridItem>
           <GridItem>

@@ -24,6 +24,10 @@ textarea {
     flex-direction: column;
 }
 
+label {
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
     input {
         margin: 12px 1rem;
@@ -35,6 +39,9 @@ textarea {
         width: 95%;
     }
     form .errorText {
+        padding-left: 1rem;
+    }
+    label {
         padding-left: 1rem;
     }
 

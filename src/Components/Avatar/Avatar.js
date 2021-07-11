@@ -9,7 +9,7 @@ const Avatar = () => {
   return (
     <>
       <AvatarImage>
-        <img src={AvatarImg} />
+        <img src={AvatarImg} alt='avatar'/>
         <AvatarHeader>
             Jamie V.
         </AvatarHeader>
@@ -17,9 +17,9 @@ const Avatar = () => {
             I am a Front-end Developer.
         </AvatarSubHeader>
         <AvatarIcons>
-        <img src={linkedin} />
-        <img src={mail} />
-        <img src={github} />
+        <img src={linkedin} alt='linkedin'/>
+        <img src={mail} alt='email'/>
+        <img src={github} alt='github'/>
         </AvatarIcons>
       </AvatarImage>
     </>

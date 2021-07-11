@@ -37,7 +37,7 @@ const SignupForm = () => {
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      {/* <label htmlFor="firstName">Name</label> */}
+      <label htmlFor="firstName">Name</label>
 
       <input
         id="firstName"
@@ -53,7 +53,7 @@ const SignupForm = () => {
         <div className="errorText">{formik.errors.firstName}</div>
       ) : null}
 
-      {/* <label htmlFor="email">Email</label> */}
+      <label htmlFor="email">Email</label>
 
       <input
         id="email"
@@ -69,7 +69,7 @@ const SignupForm = () => {
         <div className="errorText">{formik.errors.email}</div>
       ) : null}
 
-      {/* <label htmlFor="subjectArea">Message</label> */}
+      <label htmlFor="subjectArea">Message</label>
 
       <textarea
         id="subjectArea"

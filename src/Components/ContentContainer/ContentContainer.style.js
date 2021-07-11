@@ -105,7 +105,7 @@ export const GridItemHover = styled.div`
 
 export const GridItemHoverButtons = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 1rem;
 
   a {
