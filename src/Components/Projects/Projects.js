@@ -103,8 +103,8 @@ const Projects = () => {
                 <h3>Exchange</h3>
                 <p>A digital currency exchange</p>
                 <GridItemHoverButtons>
-                  <a href="#">Code</a>
-                  <a href="#">Demo</a>
+                  <a href="https://github.com/jamiev03/platforma" target='_blank' rel="noreferrer">Code</a>
+                  <a href="https://jamiev03.github.io/platforma/" target='_blank' rel="noreferrer">Demo</a>
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>

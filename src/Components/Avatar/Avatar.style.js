@@ -5,11 +5,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-margin: 10rem 0;
+margin: 10rem 0 8rem 0;
 `;
 
 export const AvatarHeader = styled.h1`
 text-align: center;
+padding-top: 1rem;
 `;
 
 export const AvatarSubHeader = styled.h3`
