@@ -3,6 +3,10 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./ContactForm.css";
 import { ContactButton } from "./Contact.style";
+import Email from "../../Email";
+import emailjs from 'emailjs-com';
+
+
 
 const SignupForm = () => {
   const formik = useFormik({
@@ -34,9 +38,31 @@ const SignupForm = () => {
       alert(JSON.stringify(values, null, 2));
     },
   });
+  
+  const MY_USER_ID = process.env.REACT_APP_USER_ID;
+  const MY_TEMPLATE = process.env.REACT_APP_TEMPLATE_ID;
+  const MY_SERVICE = process.env.REACT_APP_SERVICE_ID;
+
+  const sendMail = (e) => {
+    e.preventDefault();
+
+    // place email.js here
+    emailjs.sendForm(MY_SERVICE, MY_TEMPLATE, e.target, MY_USER_ID)
+
+    
+
+    .then((result) => {
+      alert('Message sent! Thanks for stopping by', result.text);
+
+    },
+    (error) => {
+      alert('error occurred, please try again', error.text)
+    })
+  }
+  
 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <form onSubmit={sendMail}>
       <label htmlFor="firstName">Name</label>
 
       <input
