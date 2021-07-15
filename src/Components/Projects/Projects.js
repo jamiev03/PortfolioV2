@@ -18,14 +18,14 @@ const Projects = () => {
   return (
     <>
       <ProjectsContainer>
-        <ProjectSubheader>Front-End Developement</ProjectSubheader>
+        <ProjectSubheader>Front-End Development</ProjectSubheader>
         <ContentGrid>
           <GridItem>
             <GridItemOverlay>
               <GridItemHover>
                 <h3>Crypto Prices</h3>
                 <p>A digital currency price finder </p>
-                <p>Stack: React, Material UI, API</p>
+                <p><u>Stack:</u> React, Material UI, API</p>
                 <GridItemHoverButtons>
                   <a href='https://github.com/jamiev03/material-ui-intro' target='_blank' rel="noreferrer">Code</a>
                   <a href='https://crypto-search-materialui.netlify.app/' target='_blank' rel="noreferrer">Demo</a>
@@ -41,6 +41,7 @@ const Projects = () => {
               <GridItemHover>
                 <h3>Payment Landing</h3>
                 <p>A digital currency payment system mockup</p>
+                <p><u>Stack:</u> HTML, Sass, Javascript</p>
                 <GridItemHoverButtons>
                   <a href="https://github.com/jamiev03/TapGoV2" rel="noreferrer" target='_blank'>Code</a>
                   <a href="https://jamiev03.github.io/TapGoV2/" rel="noreferrer" target='_blank'>Demo</a>
@@ -56,6 +57,7 @@ const Projects = () => {
               <GridItemHover>
                 <h3>PortfolioV2</h3>
                 <p>Current portfolio Design using React</p>
+                <p><u>Stack:</u> React, Styled Components</p>
                 <GridItemHoverButtons>
                   <a href="#">Code</a>
                   <a href="#">Demo</a>
@@ -74,6 +76,7 @@ const Projects = () => {
               <GridItemHover>
                 <h3>Nail Art Brand Design</h3>
                 <p>A design template for nail art platform.</p>
+                <p><u>Stack:</u> Figma, Photopea</p>
                 <GridItemHoverButtons>
                   <a href="#">Demo</a>
                 </GridItemHoverButtons>
@@ -87,7 +90,8 @@ const Projects = () => {
             <GridItemOverlay>
               <GridItemHover>
                 <h3>Laos Awaits</h3>
-                <p>Travel site</p>
+                <p>Travel/Blog site</p>
+                <p><u>Stack:</u> Wordpress, Elementor</p>
                 <GridItemHoverButtons>
                   <a href="https://laosawaits.com/" rel="noreferrer" target='_blank'>Demo</a>
                 </GridItemHoverButtons>
@@ -102,6 +106,7 @@ const Projects = () => {
               <GridItemHover>
                 <h3>Exchange</h3>
                 <p>A digital currency exchange</p>
+                <p><u>Stack:</u> HTML, CSS</p>
                 <GridItemHoverButtons>
                   <a href="https://github.com/jamiev03/platforma" target='_blank' rel="noreferrer">Code</a>
                   <a href="https://jamiev03.github.io/platforma/" target='_blank' rel="noreferrer">Demo</a>

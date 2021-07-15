@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./ContactForm.css";
@@ -84,7 +85,7 @@ const SignupForm = () => {
       <input
         id="email"
         name="email"
-        type="email"
+        type="text"
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}
         placeholder="Email"

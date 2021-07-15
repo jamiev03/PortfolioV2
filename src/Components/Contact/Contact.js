@@ -11,7 +11,7 @@ const Contact = () => {
           <img src={largeGrid} alt="Large grid" />
           <h3>Lets connect and chat!</h3>
           <p>
-            Don’t like forms? Send me an <a href="#">email</a> &#128512;
+            Don’t like forms? Send me an <a href="mailto:jamie@laosawaits.com">email</a> &#128512;
           </p>
         </ContactHeader>
         <SignupForm />

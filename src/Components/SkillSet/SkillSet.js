@@ -19,7 +19,7 @@ const SkillSet = () => {
             </SkillSetIcon>
             <SkillSetText>
               <h3>UI/UX Design</h3>
-              <p>Understanding of user interface and usability standards </p>
+              <p>Understanding of basic user interface and usability standards </p>
             </SkillSetText>
           </SkillSetContent>
         </GridItem>
@@ -29,8 +29,8 @@ const SkillSet = () => {
               <img src={webDevIcon} alt="terminal icon" />
             </SkillSetIcon>
             <SkillSetText>
-              <h3>Web Developement</h3>
-              <p>Knowledgeable in a variety of web developement technologies</p>
+              <h3>Web Development</h3>
+              <p>Knowledgeable in a variety of web development technologies</p>
             </SkillSetText>
           </SkillSetContent>
         </GridItem>
@@ -41,7 +41,7 @@ const SkillSet = () => {
             </SkillSetIcon>
             <SkillSetText>
               <h3>Graphic Design</h3>
-              <p>Profficient in graphic design terminology and tools.</p>
+              <p>Proficient in graphic design terminology and tools</p>
             </SkillSetText>
           </SkillSetContent>
         </GridItem>
