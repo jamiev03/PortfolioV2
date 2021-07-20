@@ -74,8 +74,8 @@ const Projects = () => {
           <GridItem>
             <GridItemOverlay>
               <GridItemHover>
-                <h3>Nail Art Brand Design</h3>
-                <p>A design template for nail art platform.</p>
+                <h3>Nail Art</h3>
+                <p>Social media design for nail art platform.</p>
                 <p><u>Stack:</u> Figma, Photopea</p>
                 <GridItemHoverButtons>
                   <a href="#">Demo</a>
