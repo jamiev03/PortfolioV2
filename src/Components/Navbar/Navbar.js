@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Nav, Hamburger, Menu, MenuLink, span } from "./Navbar.style";
-import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,10 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./ContactForm.css";
 import { ContactButton } from "./Contact.style";
-import Email from "../../Email";
 import emailjs from 'emailjs-com';
 
 
