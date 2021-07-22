@@ -32,9 +32,9 @@ const Projects = () => {
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
               <img src={cryptoAppImg} alt="crypto price app" />
-            </a>
+            
           </GridItem>
           <GridItem>
             <GridItemOverlay>
@@ -48,9 +48,9 @@ const Projects = () => {
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
             <img src={tapgoImg} alt="crypto card app" />
-            </a>
+            
           </GridItem>
           <GridItem>
             <GridItemOverlay>
@@ -59,14 +59,14 @@ const Projects = () => {
                 <p>Current portfolio Design using React</p>
                 <p><u>Stack:</u> React, Styled Components</p>
                 <GridItemHoverButtons>
-                  <a href="#">Code</a>
-                  <a href="#">Demo</a>
+                  <a href="https://github.com/jamiev03/PortfolioV2" target='_blank' rel="noreferrer">Code</a>
+                  <a href="http://jamiev.netlify.app/">Demo</a>
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
             <img src={portfolioImg} alt="current portfolio" />
-            </a>
+            
           </GridItem>
         </ContentGrid>
         <ProjectSubheader topPad='top'>Graphic and Web Design</ProjectSubheader>
@@ -78,13 +78,13 @@ const Projects = () => {
                 <p>Social media design for nail art platform.</p>
                 <p><u>Stack:</u> Figma, Photopea</p>
                 <GridItemHoverButtons>
-                  <a href="#">Demo</a>
+                  <a href="https://www.instagram.com/missbellatracey/" target='_blank' rel="noreferrer">Demo</a>
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
               <img src={nailsImg} alt="Nail brand design" />
-            </a>
+            
           </GridItem>
           <GridItem>
             <GridItemOverlay>
@@ -97,9 +97,9 @@ const Projects = () => {
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
             <img src={laos} alt="website front page" />
-            </a>
+            
           </GridItem>
           <GridItem>
             <GridItemOverlay>
@@ -113,9 +113,9 @@ const Projects = () => {
                 </GridItemHoverButtons>
               </GridItemHover>
             </GridItemOverlay>
-            <a href="#">
+            
             <img src={platforma} alt="crypto exchange dashboard" />
-            </a>
+            
           </GridItem>
         </ContentGrid>
       </ProjectsContainer>
