@@ -26,6 +26,10 @@ h1 {
 h3 {
     font-size: var(--h3);
     font-weight: 400;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+      }
 }
 
 body {

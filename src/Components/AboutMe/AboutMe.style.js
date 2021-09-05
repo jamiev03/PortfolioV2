@@ -14,5 +14,6 @@ export const AboutMeText = styled.div`
         padding: 36px;
         text-align: justify;
         line-height: 1.4;
+        
     }
 `;
