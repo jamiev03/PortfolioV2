@@ -1,5 +1,5 @@
 input {
-    width: 100%;
+    width: 400px;
     padding: 12px 20px;
     margin: 15px 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ input {
 }
 
 textarea {
-    width: 100%;
+    width: 400px;
     padding: 12px 20px;
     margin: 15px 0;
     box-sizing: border-box;
@@ -31,12 +31,13 @@ label {
 @media (max-width: 768px) {
     input {
         margin: 12px 1rem;
-        width: 95%;
+        width: 300px;
+        padding-right: 1rem;
     }
 
     textarea {
         margin: 12px 1rem;
-        width: 95%;
+        width: 300px;
     }
     form .errorText {
         padding-left: 1rem;

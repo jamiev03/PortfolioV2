@@ -13,6 +13,6 @@ export const AboutMeText = styled.div`
     h3 {
         padding: 36px;
         text-align: justify;
-        line-height: 1.2;
+        line-height: 1.4;
     }
 `;
